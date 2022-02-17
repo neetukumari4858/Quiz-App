@@ -1,0 +1,88 @@
+@import url("/color-variable.css");
+@import url("/Navigation.css");
+
+/* css for result1 */
+
+.outer-container{
+    height: 35rem;
+    width: 81rem;
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+}
+.content-container{
+    height: 115rem;
+    width: 35rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    box-shadow: 1px 1px 5px 1px var(--gainsboro-color);
+
+}
+.inner-div{
+    height:10rem;
+    width:30rem ;
+    margin-top: 1rem;
+    display: flex;
+    color: var(--white-color);
+    justify-content: center;
+}
+.options{
+    position: relative;
+    top: 12rem;
+    right: 32.6rem;
+    height: 100rem;
+    width: 30rem;
+    text-align: center; 
+    color: var(--white-color);
+}
+.Answer{
+    height: 3rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--black-color);
+    font-weight: bold;
+    background-color: var(--gainsboro-color);
+}
+.Answer-correct{
+    height: 3rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--black-color);
+    font-weight: bold;
+    background-color: var(--green-color);
+}
+.Answer-Wrong{
+    height: 3rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--black-color);
+    font-weight: bold;
+    background-color: var(--red-color);
+}
+.Question-container{
+    height: 10rem;
+    width: 50rem;
+    text-align: center;    
+}
+.wishes{
+    height: 12rem;
+    width: 26rem;
+    margin-top: -95rem;
+    margin-left: 37rem;
+    box-shadow: 1px 1px 5px 1px var(--gainsboro-color);
+
+}
+
