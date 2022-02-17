@@ -1,0 +1,40 @@
+@import url("/color-variable.css");
+@import url("/Navigation.css");
+
+/* css for Rules */
+
+.outer-container{
+    height: 40rem;
+    width: 81rem;
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+}
+.rules-conainer{
+    height: 25rem;
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    margin-top:4rem;
+    border-radius: 0.5rem;
+    background: var(--football-bg-color);
+}
+.paragraph-div{
+    height: 17rem;
+    width: 23rem;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--white-color); 
+}
+.play-now-btn{
+    padding: 0.8rem;
+    background-color:var(--white-color);
+    color: var(--black-color);
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+    margin-left: -17rem;
+    margin-top: 31rem;
+    cursor: pointer;
+}
