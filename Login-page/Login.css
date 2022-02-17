@@ -1,0 +1,56 @@
+@import url("/color-variable.css");
+@import url("/Navigation.css");
+
+/* css for Login page */
+.outer-container{
+    height: 34.5rem;
+    width:79.8rem;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+.login-container{
+    height: 27rem;
+    width: 27rem;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 5px 1px var(--gainsboro-color);
+}
+.login-content{
+    height: 18rem;
+    width: 22rem;
+    margin-top:2rem;
+    font-size: 1.2rem;
+    color: var(--white-color);
+}
+.user-input{
+    height: 2rem;
+    width: 18.5rem;
+    border: 1px solid var(--gray-color);
+}
+.login-btn{
+    padding: 0.6rem 8.4rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    background-color: var(--light-blue-color);
+    border: none;
+    color: white;
+}
+h4{
+    text-align: center;
+    color:var(--white-color) ;
+}
+h2{
+    text-align: center;
+    color:var(--white-color) ;
+}
+span{
+    color:var(--blue-color);
+    margin-left: 1.5rem;
+
+}
+.fa-angle-right{
+    color:var(--black-color);
+}
