@@ -48,7 +48,7 @@
     font-weight: bold;
     background-color: var(--gainsboro-color);
 }
-.Answer-currect{
+.Answer-correct{
     height: 3rem;
     width: 100%;
     border-radius: 0.5rem;
