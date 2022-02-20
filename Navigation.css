@@ -13,11 +13,11 @@ body{
     background-color: var(--black-color);
 }
 .outer-container::-webkit-scrollbar{
-    width: 0.5rem;
+    width: 0.3rem;
 }
 .outer-container::-webkit-scrollbar-thumb{
     width: 0.2rem;
-    background-color:var(--red-color);
+    background-color:var(--gainsboro-color);
     border-radius: 0.5rem;
 }
 .quiz-label{
