@@ -17,70 +17,47 @@ h2{
     color: var(--white-color);
 }
 .first-section{
-    height: 18rem;
-    width: 70rem;
     text-align: center;
     margin-top: 4rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
-    margin-left: 9rem;
+    gap: 5rem;
+    justify-content: center;
 }
 .categories:hover{
     transform: scale(1.1);
 }
-.cricket-box{
-    height: 14rem;
-    width: 19rem;
-    border-radius: 2rem;
-    background: var(--cricket-bg-color)
-}
 .paragraph{
     height: 2rem;
     width: 14rem;
-    margin-top: -0.5rem;
-    margin-left: 3rem;
+    position: relative;
+    top: 0.9rem;
+    left: 2rem;
     font-size: 1rem;
     color: var(--white-color);
 }
 .button{
-    margin-top: -0.8rem;
+    margin-top: -0.4rem;
     color: var(--white-color);
 }
-.fa-unlock{
-    position: relative;
-    top: -14rem;
-    margin-left: -14rem;
-    color:var(--white-color);
-    cursor: pointer;
-    font-size:3rem;
-    
+.images{
+    height: 12rem;
+    width: 17rem;
+    border-radius: 1rem;
 }
-.fa-lock{
-    position: relative;
-    top: -14rem;
-    margin-left: -15rem;
-    color: var(--white-color);
-    font-size:2.5rem;
+.text-div{
+    height: 6rem;
+    box-shadow: 1px 0.5px 5px 0.7px gainsboro;
+    border-radius: 1rem;
+    margin-top: -0.9rem;
 }
-.football-box {
-    height: 14rem;
-    width: 19rem;
-    border-radius: 2rem;
-    background: var(--football-bg-color);
-}
-.basketball-box{
-    height: 14rem;
-    width: 19rem;
-    border-radius: 2rem;
-    background: var(--basketball-bg-color);
-}
+
 /* footer */
 .footer-div{
     height: 6rem;
     width:100%;
     position: relative;
-    top: 1rem;
+    top: 5rem;
     display: flex;
     justify-content: center;
     box-shadow: 1px 1px 5px 1px var(--gainsboro-color);
@@ -103,6 +80,5 @@ h4{
 .fa{
     color: var(--white-color);
     font-size:1.8rem;
-
 }
 
