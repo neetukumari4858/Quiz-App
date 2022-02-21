@@ -1,7 +1,12 @@
 # Quiz App
 I can see a landing page where I can see a list of featured categories.Whenever I click on "Play now" on the quiz card. I can see rules for the particular quiz I'm playing.
 Once I start playing a quiz I can see a question with multiple answers to it.Once I complete my quiz, I can see the result page containing my scores and answers.
- 
+ # Feature:-
+1.Home Page<br>
+2.Quizzes by Category<br>
+3.Rules Page for while attempting Quiz<br>
+4.MCQ based Quiz Question Page<br>
+5.Result Page with Answers & Score<br>
  # Here is a Look
 
 ![Screenshot from 2022-02-20 21-25-49](https://user-images.githubusercontent.com/90403664/154861343-6e004083-194e-45b6-ad08-8012150c3986.png)
